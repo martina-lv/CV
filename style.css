@@ -1,0 +1,318 @@
+/* color
+f0f2fa
+#03045e*/
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=EB+Garamond&family=Lora:ital,wght@1,400;1,500;1,700&display=swap");
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  color: #03045e;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h2 {
+  margin: 0 0 18px 0;
+}
+
+h3,
+h4 {
+  font-family: "EB Garamond", serif;
+  color: #03045e;
+}
+h3 {
+  margin: 5px 0;
+}
+h4 {
+  margin: 0;
+}
+
+p,
+a,
+li {
+  font-family: "Bitter", serif;
+  text-decoration: none;
+  color: #03045e;
+}
+
+ul {
+  padding: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li {
+  font-size: 0.95rem;
+  list-style-type: "-";
+  padding: 0 0 0 10px;
+}
+
+/* HEADER */
+.main-header {
+  background-color: #f0f2fa;
+}
+.main-navbar {
+  border-bottom: 0.8px solid #03045e;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+.main-navbar a {
+  border-radius: 10px;
+  color: #03045e;
+  padding: 3px;
+  font-weight: 600;
+}
+
+.header-section {
+  text-align: center;
+}
+
+.header-section p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+.header-section img {
+  margin: 5px 0 20px 0;
+  border-radius: 8px;
+}
+
+.header-mlv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* MAIN */
+.main-content a {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  text-shadow: 4px 3px 0px #7a7a7a4f;
+}
+
+.main-content p {
+  font-weight: 400;
+  margin: 0;
+}
+/* ABOUT ME */
+.main-about-me {
+  padding: 20px;
+}
+
+/* EXPERIENCES */
+.main-experiences {
+  background-color: #f0f2fa;
+  padding: 20px;
+}
+
+.main-first-experience {
+  border-bottom: 0.8px solid #03045e;
+  padding-bottom: 10px;
+}
+
+/* SKILLS */
+.main-skills {
+  padding: 20px;
+}
+
+/* EDUCATION */
+.main-education {
+  padding: 20px;
+  background-color: #f0f2fa;
+}
+
+.main-education p:first-of-type {
+  border-bottom: 0.8px solid #03045e;
+}
+
+.main-cb h3 {
+  margin-top: 20px;
+}
+
+.main-cb h3:nth-of-type(1) {
+  margin-bottom: 0;
+}
+.main-cb h3:nth-of-type(2) {
+  margin-top: 0;
+}
+.main-frontend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-frontend h4 {
+  border: 2px solid #03045e;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+
+.main-html {
+  background: linear-gradient(
+    to right,
+    #3eb0ba,
+    #3eb0ba 80%,
+    transparent 83%,
+    transparent 100%
+  );
+}
+.main-css {
+  background: linear-gradient(
+    to right,
+    #3eb0ba,
+    #3eb0ba 60%,
+    transparent 63%,
+    transparent 100%
+  );
+}
+.main-js {
+  background: linear-gradient(
+    to right,
+    #3eb0ba,
+    #3eb0ba 1%,
+    transparent 2%,
+    transparent 100%
+  );
+}
+
+/* FOOTER */
+.main-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+.main-footer h3 {
+  margin: 0;
+}
+.main-footer a {
+  font-weight: 600;
+}
+
+.main-footer p {
+  margin: 0 0 10px 0;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  background-color: #f0f2fa;
+}
+.footer-bottom p {
+  border-top: 0.8px solid #03045e;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+
+/* RESPONSIVE */
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+  ul {
+    gap: 20px;
+  }
+
+  .header-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header-mlv {
+    flex-direction: column;
+  }
+
+  .header-title h1 {
+    font-size: 3rem;
+  }
+  .main-content p,
+  ul,
+  h4 {
+    margin: 0 130px;
+  }
+
+  .main-content h4 {
+    margin-bottom: 10px;
+  }
+
+  .main-first-experience {
+    padding-bottom: 10px;
+  }
+
+  .main-frontend-title {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    gap: 5px;
+  }
+
+  .main-frontend-title h3 {
+    margin: 0;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
+  .main-navbar a {
+    font-size: 20px;
+  }
+  .header-section p {
+    font-size: 16px;
+  }
+  .header-section h1 {
+    font-size: 4rem;
+  }
+  .main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  .main-section p,
+  h3,
+  ul,
+  h4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .main-about-me,
+  .main-education,
+  .main-skills,
+  .main-experiences {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 18px #f0f2fa;
+  }
+
+  .main-about-me,
+  .main-skills {
+    box-shadow: 5px 10px 18px #f0f2fa;
+  }
+
+  .main-frontend-title {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .main-footer {
+    background-color: #f0f2fa;
+    margin-top: 40px;
+  }
+  .footer-social {
+    padding-top: 20px;
+  }
+}
